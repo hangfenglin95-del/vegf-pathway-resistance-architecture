@@ -1,0 +1,12 @@
+dataset	final_role	primary_validation_eligible	evidence_tier	notes
+GSE76068	DISCOVERY	NO	See contrast manifest	Discovery dataset
+GSE73571	DISCOVERY	NO	See contrast manifest	Discovery dataset
+GSE180687	DISCOVERY	NO	See contrast manifest	Discovery dataset
+GSE64472	DISCOVERY	NO	See contrast manifest	Discovery dataset
+GSE26644	DISCOVERY	NO	See contrast manifest	Discovery dataset
+GSE64052	PRIMARY_VALIDATION	YES	Tier B	Three nested/related contrasts from one dataset
+GSE86525	PRIMARY_VALIDATION_COUNTEREXAMPLE	YES	Tier B	One negative counterexample contrast
+GSE81465	SUPPORTIVE_ONLY	NO	Supportive-only	Serial-state descriptive evidence; replicate provenance unresolved
+GSE45161	SUPPORTIVE_DIRECTION_ONLY	NO	Supportive-only	Resistant derivative arms lack inferential replication
+GSE79671	HUMAN_LONGITUDINAL	NO	Human	16 complete pairs: 6 responders and 10 without objective response
+GSE37138	SUPPORTING_BASELINE_ASSOCIATION	NO	Human supporting	Nominal/supporting only

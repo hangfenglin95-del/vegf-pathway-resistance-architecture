@@ -1,0 +1,9 @@
+dataset	source_type	identifier	url
+GSE81465	GEO Series/family metadata	GSE81465	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81465
+GSE81465	Original publication	PMID 28218903 / PMCID PMC5491354	https://pmc.ncbi.nlm.nih.gov/articles/PMC5491354/
+GSE64052	GEO Series/family metadata	GSE64052	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64052
+GSE64052	Original publication	PMID 25589614 / PMCID PMC4419371	https://pmc.ncbi.nlm.nih.gov/articles/PMC4419371/
+GSE86525	GEO Series/family metadata	GSE86525	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE86525
+GSE86525	Original publication	PMID 29179478 / PMCID PMC5687648	https://pmc.ncbi.nlm.nih.gov/articles/PMC5687648/
+GSE45161	GEO Series/family metadata	GSE45161	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE45161
+GSE45161	Original publication	PMID 23804423	https://pubmed.ncbi.nlm.nih.gov/23804423/

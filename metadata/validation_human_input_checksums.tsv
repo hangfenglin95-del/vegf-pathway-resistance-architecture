@@ -1,0 +1,13 @@
+dataset	file_name	source_page	size_bytes	sha256
+GSE180687	GSE180687_RAW.tar	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180687	38502400	23ca8bd57b21dfea450ec791dc11f1df00eab83131a072e5cea1dd709a471b78
+GSE81465	GSE81465_RAW.tar	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81465	47575040	538ad4abf6022dc91d546180cfecf378b57f80104f0a7e1ad742eaadb7b5296c
+GPL10558	GPL10558_HumanHT-12_V4_0_R2_15002873_B.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL10558	13721073	932e2f110bd30ac70ef4d7dbac2f87f8088f982bf9aa596732c7477ab50d43c2
+GSE64052	GSE64052_series_matrix.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64052	5783295	2ce5bcb72c18f4965af192fb2ab0169efa79a606d72d8b8ff8dd7944969c3b69
+GPL570	GPL570.annot.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570	8471521	d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394
+GSE86525	GSE86525_series_matrix.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE86525	954250	8feb9f11816a56577940f716d08e4e18c493413dc6c7c14a818ac6ff55ed9614
+GPL16699	GPL16699_full.soft	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16699	37087032	3dbcca76243510dfeee00c9c4a37f6da768a61da85a0042c19da536ec49fc7ba
+GSE45161	GSE45161_series_matrix.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE45161	675304	6d9926a0249fa4311e72d25a996d82f19f5ed6b2d6ff12f73efc72e76a75f487
+GPL9324	GPL9324_full.soft	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL9324	730318	dcbba6774ccf44c4f23a1d65a193de65fef3e4929f71f4c079953e23a1d1531b
+GSE79671	GSE79671_CountMatrix.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79671	1269379	da26647fb368943df53ed7cd9bf74e9846d4528f5a6113805712e980a6ddd5dc
+GSE37138	GSE37138_series_matrix.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37138	1311468327	fd675187d98ef1edb57a142444a6152198d1d8bd273ac2ec9ad39f7d7a8cdd30
+GSE249415	GSE249415_raw_HS.txt.gz	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249415	3998527	6c8065e567c9f0d6edb59c7dbfff8b43d495872bd1ce141e7fe16363dfdc2491

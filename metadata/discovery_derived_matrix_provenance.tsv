@@ -1,0 +1,3 @@
+unit	path	biological_profiles	features	derivation	sha256
+GSE76068_tumor	data/processed/GSE76068_tumor_biological_level_proposed_expression.tsv.gz	12	48095	technical replicates resolved per technical_replicate_resolution.tsv; mean on deposited log2 scale where both pass	1ac1ddc4c2dc4794d7c88f809c5fc831fe091f2501ab8a4ef77b66de1042d572
+GSE76068_stroma	data/processed/GSE76068_stroma_biological_level_proposed_expression.tsv.gz	12	25697	technical replicates resolved per technical_replicate_resolution.tsv; mean on deposited log2 scale where both pass	480004bcb54adf46c06df7bd353717f3461be7a31a34f560cdd8ae26ced768db

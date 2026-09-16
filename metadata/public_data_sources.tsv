@@ -1,0 +1,14 @@
+dataset	analysis_role	accession_page	principal_input_type	redistributed
+GSE76068	discovery	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76068	Series Matrix, deposited normalized matrices, platform annotations	NO
+GSE73571	discovery	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73571	Series Matrix and platform annotation	NO
+GSE180687	discovery	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180687	CEL files and platform annotation	NO
+GSE64472	discovery	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64472	mouse-stromal Series Matrix and platform annotation	NO
+GSE26644	discovery	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE26644	human-tumor and mouse-stromal Series Matrices and annotations	NO
+GSE64052	primary experimental validation	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64052	Series Matrix and GPL570 annotation	NO
+GSE86525	primary experimental validation counterexample	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE86525	Series Matrix and GPL16699 platform SOFT	NO
+GSE81465	supportive serial-state evidence	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81465	IDAT files and GPL10558 manifest	NO
+GSE45161	qualitative directional support	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE45161	Series Matrix and GPL9324 platform SOFT	NO
+GSE79671	human longitudinal	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79671	deposited count matrix	NO
+GSE37138	supporting baseline clinical association	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37138	Series Matrix	NO
+GSE249415	additional-dataset sensitivity	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE249415	deposited processed matrix	NO
+

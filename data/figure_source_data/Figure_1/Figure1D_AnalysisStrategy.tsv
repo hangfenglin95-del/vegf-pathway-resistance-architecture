@@ -1,0 +1,6 @@
+order	analysis_step	constraint
+1	Within-study differential analysis	Preserve study-specific design and contrast
+2	Ranked gene-set enrichment	Signed NES; Hallmark primary, Reactome supporting
+3	Cross-context pathway architecture	Raw NES, correlation, recurrence and divergence
+4	Frozen-program validation	No pathway reselection
+5	Human translation	Paired longitudinal, interaction and baseline association kept distinct

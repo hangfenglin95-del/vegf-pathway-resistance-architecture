@@ -1,0 +1,10 @@
+layer	source_state	target_state	relationship	caveat
+Adaptive pressure	VEGF-pathway inhibition	Multiple resistance-associated trajectories	association	No causal arrow to a specific pathway
+Recurrent experimental state	Multiple preclinical models	MTORC1 signaling	recurrent_not_universal	Experimental recurrence; human responder direction opposite
+Recurrent experimental state	Multiple preclinical models	Unfolded protein response	recurrent_not_universal	Secondary recurrent program
+Context-dependent branch	Model context	Interferon responses	bidirectional	Direction and magnitude vary
+Context-dependent branch	Model context	Epithelial–mesenchymal transition	bidirectional	Strong human response-history reversal
+Context-dependent branch	Model context	Inflammatory response	bidirectional	Human difference is mainly magnitude
+Human response history	Initial response	Acquired progression after response	distinct_state	Responder H1
+Human response history	Primary/non-response	Non-responder progression/post state	distinct_state	Non-responder H2
+Interpretive conclusion	Treatment failure	Different transcriptional states can reach the same clinical endpoint	noncausal_synthesis	Story C

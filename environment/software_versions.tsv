@@ -1,0 +1,17 @@
+software_or_package	version	analysis_component	version_source	status
+R	4.6.1 (2026-06-24)	all R analyses	*_sessionInfo.txt; sessionInfo.txt; VALIDATION_sessionInfo.txt; *_sessionInfo.txt	RECORDED
+limma	3.68.5	discovery and validation microarray DE; GSE81465 neqc; GSE79671 voom	model-specific sessionInfo files	RECORDED
+edgeR	4.10.5	GSE79671 DGEList, TMM, CPM	GSE79671_sessionInfo.txt	RECORDED
+fgsea	1.38.0	ranked Hallmark and Reactome GSEA	gsea_sessionInfo.txt; sessionInfo.txt; VALIDATION_sessionInfo.txt; GSE79671_sessionInfo.txt	RECORDED
+msigdbr	26.1.1	MSigDB Hallmark and Reactome retrieval	gsea_sessionInfo.txt; sessionInfo.txt; VALIDATION_sessionInfo.txt; HUMAN sessionInfo files	RECORDED
+MSigDB	2026.1.Hs	Hallmark and Reactome gene-set release	gsea_gene_set_manifest.tsv; VALIDATION_gsea_gene_set_manifest.tsv	RECORDED
+babelgene	22.9	mouse-to-human ortholog conversion	gsea_sessionInfo.txt	RECORDED
+affy	1.90.0	GSE180687 CEL-to-RMA preprocessing	preprocessing_sessionInfo.txt	RECORDED
+mouse4302cdf	2.18.0	GSE180687 GPL1261 CDF	preprocessing_sessionInfo.txt	RECORDED
+illuminaio	0.54.0	GSE81465 IDAT import dependency	VALIDATION_sessionInfo.txt	RECORDED
+AnnotationDbi	1.74.0	gene identifier mapping	 preprocessing and HUMAN sessionInfo files	RECORDED
+org.Hs.eg.db	3.23.1	GSE79671 Ensembl-to-symbol mapping	GSE79671_sessionInfo.txt	RECORDED
+huex10stprobeset.db	8.8.0	GSE37138 probeset-to-symbol mapping	GSE37138_sessionInfo.txt	RECORDED
+data.table	1.18.6.1	large matrix import and tabular operations	 GSEA and HUMAN sessionInfo files	RECORDED
+ggplot2	4.0.3	analysis figures	 GSEA, VALIDATION, and HUMAN sessionInfo files	RECORDED
+Python	3.12.0	release integrity verification	runtime --version	RECORDED

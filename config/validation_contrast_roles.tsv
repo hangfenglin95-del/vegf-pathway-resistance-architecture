@@ -1,0 +1,6 @@
+dataset	contrast	final_evidence_status	primary_validation_eligible	evidence_tier	nesting_note
+GSE64052	GSE64052_786O_sorafenib_resistant_vs_untreated	PRIMARY_VALIDATION	YES	Tier B	Nested within GSE64052
+GSE64052	GSE64052_786O_sunitinib_resistant_vs_untreated	PRIMARY_VALIDATION	YES	Tier B	Nested within GSE64052
+GSE64052	GSE64052_A498_sorafenib_resistant_vs_untreated	PRIMARY_VALIDATION	YES	Tier B	Nested within GSE64052
+GSE86525	GSE86525_HT29_bevacizumab_resistant_vs_control	PRIMARY_VALIDATION	YES	Tier B	Single GSE86525 contrast; negative counterexample
+GSE81465	GSE81465_G9_vs_G1	SUPPORTIVE_ONLY	NO	Supportive-only	Serial states; replicate provenance unresolved
