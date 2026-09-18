@@ -1,0 +1,18 @@
+analysis	public_release_record	archival_status
+Discovery leave-one-contrast-out	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+Discovery leave-one-dataset-out	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+Discovery Tier-A-only	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+Low-n vandetanib exclusion	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+GSE180687 sample omission	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+Probe summarization rank concordance	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+Clustering linkage alternatives	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+PCA scaling alternatives	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+GSE81465 late-sample omission	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+GSE79671 patient omission	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+GSE37138 endpoint consistency	not bundled in compact release	ARCHIVED_PROJECT_OUTPUT
+Expanded validation dataset-level direction	results/validation/PHASE10B_VALIDATION_DATASET_SUMMARY.tsv	BUNDLED
+Expanded validation leave-one-dataset-out	results/validation/PHASE10B_VALIDATION_LEAVE_ONE_DATASET_OUT.tsv	BUNDLED
+Expanded validation leave-one-context-out	results/validation/PHASE10B_VALIDATION_LEAVE_ONE_CONTEXT_OUT.tsv	BUNDLED
+Expanded validation evidence-tier summary	results/validation/PHASE10B_VALIDATION_TIER_SUMMARY.tsv	BUNDLED
+Candidate-dataset disposition audit	config/candidate_dataset_disposition.tsv	BUNDLED
+Design-limited dataset sensitivity	results/additional_sensitivity/TableS11_candidate_dataset_results.tsv	BUNDLED

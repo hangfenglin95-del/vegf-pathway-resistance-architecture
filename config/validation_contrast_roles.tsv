@@ -14,3 +14,5 @@ GSE78698	GSE78698_endothelium_long_vs_short_nintedanib	FINAL_EXTERNAL_VALIDATION
 GSE81465	GSE81465_G9_vs_G1	SUPPORTIVE_ONLY	NO	Supportive-only	Serial states; replicate provenance unresolved
 GSE45161	GSE45161_NSC11R_vs_parental_control	SUPPORTIVE_ONLY	NO	Supportive-only	One resistant array
 GSE45161	GSE45161_NSC11R_vs_parental_bevacizumab	SUPPORTIVE_ONLY	NO	Supportive-only	One resistant array
+GSE45161	GSE45161_U87R_vs_parental_control	SUPPORTIVE_ONLY	NO	Supportive-only	One resistant array
+GSE45161	GSE45161_U87R_vs_parental_bevacizumab	SUPPORTIVE_ONLY	NO	Supportive-only	One resistant array

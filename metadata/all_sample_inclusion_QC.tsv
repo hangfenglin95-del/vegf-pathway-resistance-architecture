@@ -102,62 +102,62 @@ discovery	GSE26644	GSM655861	stroma_vehicle_control	untreated/vehicle control	CO
 discovery	GSE26644	GSM655938	stroma_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
 discovery	GSE26644	GSM655939	stroma_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
 discovery	GSE26644	GSM655940	stroma_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208762	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208763	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208764	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208765	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208766	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208767	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208768	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208769	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208770	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208771	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208772	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-supportive validation evidence	GSE81465	GSM2208773	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563498	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563499	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563500	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563501	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563502	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563503	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563504	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563505	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563506	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563507	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563508	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563509	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563510	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563511	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563512	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563513	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563514	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563515	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563516	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563517	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563518	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563519	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563520	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563521	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563522	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563523	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563524	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE64052	GSM1563525	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE86525	GSM2304992	untreated control	control	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE86525	GSM2304993	untreated control	control	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE86525	GSM2304994	untreated control	control	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE86525	GSM2304995	continued treatment to endpoint; 3 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE86525	GSM2304996	continued treatment to endpoint; 4 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE86525	GSM2304997	continued treatment to endpoint; 5 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098404	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098405	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098406	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098407	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098408	untreated endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098409	on-treatment endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098410	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098411	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098412	untreated endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
-validation	GSE45161	GSM1098413	on-treatment endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208762	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208763	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208764	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208765	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208766	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208767	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208768	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208769	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208770	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208771	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208772	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208773	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563498	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563499	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563500	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563501	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563502	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563503	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563504	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563505	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563506	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563507	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563508	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563509	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563510	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563511	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563512	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563513	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563514	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563515	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563516	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563517	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563518	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563519	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563520	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563521	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563522	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563523	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563524	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE64052	GSM1563525	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE86525	GSM2304992	untreated control	control	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE86525	GSM2304993	untreated control	control	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE86525	GSM2304994	untreated control	control	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE86525	GSM2304995	continued treatment to endpoint; 3 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE86525	GSM2304996	continued treatment to endpoint; 4 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE86525	GSM2304997	continued treatment to endpoint; 5 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098404	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098405	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098406	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098407	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098408	untreated endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098409	on-treatment endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098410	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098411	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098412	untreated endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
+validation	GSE45161	GSM1098413	on-treatment endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	legacy_phase9A_validation_sample_manifest.tsv
 human_longitudinal	GSE79671	GSM2100916	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
 human_longitudinal	GSE79671	GSM2100917	NonResponder	Post	include			GSE79671_sample_manifest.tsv
 human_longitudinal	GSE79671	GSM2100918	NonResponder	Pre	include			GSE79671_sample_manifest.tsv

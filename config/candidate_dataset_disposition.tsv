@@ -13,4 +13,4 @@ GSE221557	SENSITIVITY_ONLY	NO	1	0	unresolved assay-label limitation and transcri
 GSE132568	SENSITIVITY_ONLY	NO	1	0	in-vivo-derived cells underwent prolonged ex-vivo maintenance	NO	retain all six frozen-program results outside formal denominator
 GSE80778	SENSITIVITY_ONLY	NO	2	0	vehicle endpoint causes unresolved treatment/escape conflation	NO	retain both contexts and all six programs outside formal denominator
 GSE81465	SUPPORTIVE_ONLY	NO	1	0	biological-versus-technical replicate identity remains unresolved	NO	retain serial-state direction; do not use P/FDR as biological replication evidence
-GSE45161	SUPPORTIVE_ONLY	NO	2	0	resistant-derivative states lack inferential replication	NO	retain qualitative directions only
+GSE45161	SUPPORTIVE_ONLY	NO	4	0	resistant-derivative states lack inferential replication	NO	retain qualitative directions only

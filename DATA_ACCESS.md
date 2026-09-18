@@ -30,14 +30,14 @@ The included scripts expect these principal inputs:
 | Analysis | Required public inputs |
 |---|---|
 | Discovery | GEO Series Matrix or deposited normalized matrices for GSE76068, GSE73571, GSE64472, and GSE26644; GSE180687 CEL files; applicable GEO platform annotations; `metadata/discovery_sample_manifest.tsv` |
-| Final external validation | GSE64052, GSE86525, GSE249415, GSE121153, GSE84048, GSE207976, GSE328515, and GSE78698 deposited files and required platform annotations; exact context definitions are in `config/external_validation_cohort.tsv` |
+| Final external validation | GSE64052, GSE86525, GSE249415, GSE121153, GSE84048, GSE207976, GSE328515, and GSE78698 deposited files and required platform annotations; exact context definitions are in `config/external_validation_cohort.tsv`, with the corresponding sample/QC records in `metadata/external_validation_sample_manifest.tsv` |
 | Candidate-dataset sensitivity | GSE59476, GSE66346, GSE221557, GSE132568, and GSE80778 deposited files; final dispositions are in `config/candidate_dataset_disposition.tsv` |
 | Supportive experimental evidence | GSE81465 IDAT files and GPL10558 manifest; optional GSE45161 Series Matrix and GPL9324 platform SOFT |
 | Human longitudinal | GSE79671 deposited count matrix; `metadata/GSE79671_sample_manifest.tsv` |
 | Human baseline association | GSE37138 Series Matrix; `metadata/GSE37138_sample_manifest.tsv` |
 | GSE249415 entry point | Set `VEGF_GSE249415_INPUT` to the deposited `GSE249415_raw_HS.txt.gz` matrix |
 
-Copy the included sample manifests into the matching metadata directories before expression-level reconstruction. The two evidence-role files in `config/` are the authoritative role definitions.
+Use `metadata/all_sample_inclusion_QC.tsv` as the authoritative cross-stage sample inclusion/QC record. `metadata/external_validation_sample_manifest.tsv` is the formal eight-dataset external-validation subset, while `metadata/legacy_phase9A_validation_sample_manifest.tsv` is preserved only for historical provenance and is not the current validation manifest. The evidence-role files in `config/` are the authoritative role definitions.
 
 ## Notes
 

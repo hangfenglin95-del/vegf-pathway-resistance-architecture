@@ -8,7 +8,7 @@ The analysis preserves study-specific contrasts and compartments. Discovery cont
 
 - `scripts/`: ordered R/Python analysis, validation-summary, and figure-rendering scripts, plus the archive verifier. The `legacy_phase9A/` subdirectory preserves the superseded two-dataset validation implementation for provenance and is not part of the current execution path.
 - `config/`: final dataset and contrast evidence roles.
-- `metadata/`: dataset sources and sample-level inclusion records.
+- `metadata/`: dataset sources and sample-level inclusion records. `all_sample_inclusion_QC.tsv` is the authoritative cross-stage sample/QC record; `external_validation_sample_manifest.tsv` is its formal eight-dataset validation subset; and `legacy_phase9A_validation_sample_manifest.tsv` is retained only as an archival record of the superseded Phase 9A implementation.
 - `data/figure_source_data/`: frozen inputs used to render the publication figures.
 - `results/`: selected manuscript-facing result tables.
 - `reference_figures/`: reference PNG, PDF, and SVG files.
@@ -70,4 +70,4 @@ Continue in the order given in `run_manifest.tsv`, skipping entries marked `arch
 
 ## Reproducibility boundary
 
-The figure-rendering and expanded-validation summary paths are directly runnable from this archive. Full expression-level reconstruction additionally requires downloading public GEO files and arranging them according to `DATA_ACCESS.md`. Randomized analyses use explicit seeds. Package versions are recorded in `environment/software_versions.tsv`; the complete recorded R session is in `environment/R_sessionInfo.txt`. The expanded validation cohort was locked after discovery-program freezing and was not represented as prospectively prespecified.
+The figure-rendering and expanded-validation summary paths are directly runnable from this archive. Full expression-level reconstruction additionally requires downloading public GEO files and arranging them according to `DATA_ACCESS.md`. Dataset-specific ortholog handling, empirical-Bayes settings, and analysis seeds are documented in `metadata/dataset_methods_inventory.tsv` and the corresponding scripts. Package versions are recorded in `environment/software_versions.tsv`; the complete recorded R session is in `environment/R_sessionInfo.txt`. The expanded validation cohort was locked after discovery-program freezing and was not represented as prospectively prespecified.

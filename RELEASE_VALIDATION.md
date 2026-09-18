@@ -14,8 +14,15 @@
 - PNG reproduction: exact for all 6 main and 5 supplementary figures
 - PDF and SVG rendering: completed without errors
 - Evidence-role configuration: included
-- Sample-level manifests: included
+- Authoritative cross-stage sample/QC manifest: included (`metadata/all_sample_inclusion_QC.tsv`)
+- Formal external-validation sample/QC subset: 93 records across 8 datasets (`metadata/external_validation_sample_manifest.tsv`)
+- Superseded Phase 9A validation manifest: explicitly retained as archival provenance
+- Dataset-specific ortholog handling, empirical-Bayes settings, Hallmark scope, and seeds: aligned with the executed scripts and methods inventory
+- GSE45161 supportive inventory: 4 qualitative contrasts; excluded from the formal validation denominator
+- Robustness table: publication-facing four-column table aligned with the workbook; release-record availability documented separately
 - External dataset accession links: included
-- Phase 9A.1 manuscript package modified during release preparation: no
+- Phase 10C manuscript package modified during Phase 10C.1 preparation: no
+- Expression-level analyses or enrichment rerun during Phase 10C.1 preparation: no
+- Publication figures modified during Phase 10C.1 preparation: no
 
-The publication-figure renderers and expanded-validation summary builder are directly runnable from the archive. Expression-level analyses require the public GEO inputs described in `DATA_ACCESS.md`. The archived Phase 9A scripts are retained for provenance and are not part of the current Phase 10C execution path.
+The publication-figure renderers and expanded-validation summary builder are directly runnable from the archive. Expression-level analyses require the public GEO inputs described in `DATA_ACCESS.md`. The archived Phase 9A scripts are retained for provenance and are not part of the current Phase 10C.1 execution path.

@@ -3,9 +3,9 @@ step	script	execution_mode	principal_input	principal_output	notes
 02	scripts/02_discovery_differential_expression.R	external_expression_data	processed discovery expression	discovery differential statistics	Within-dataset limma models
 03	scripts/03_discovery_gsea.R	external_expression_data	discovery differential statistics	discovery Hallmark and Reactome enrichment	Explicit random seed
 04	scripts/04_cross_context_architecture.R	external_expression_data	discovery enrichment	cross-context architecture results	Preserves nested contexts
-05	scripts/legacy_phase9A/05_validation_analysis.R	archived_provenance	archived Phase 9A role configuration and GSE64052/GSE86525 inputs	original validation differential and enrichment results	Historical two-dataset implementation; not part of the current Phase 10C execution path
+05	scripts/legacy_phase9A/05_validation_analysis.R	archived_provenance	archived Phase 9A role configuration and GSE64052/GSE86525 inputs	original validation differential and enrichment results	Historical two-dataset implementation; not part of the current Phase 10C.1 execution path
 06	scripts/06_validation_GSE81465_sensitivity.R	external_expression_data	processed GSE81465 expression	leave-one-late-sample-out sensitivity	Supportive-only analysis
-07	scripts/legacy_phase9A/07_validation_role_summaries.R	archived_provenance	archived Phase 9A role configuration and original validation enrichment	original role summaries	Historical two-dataset implementation; not part of the current Phase 10C execution path
+07	scripts/legacy_phase9A/07_validation_role_summaries.R	archived_provenance	archived Phase 9A role configuration and original validation enrichment	original role summaries	Historical two-dataset implementation; not part of the current Phase 10C.1 execution path
 08	scripts/08_human_longitudinal_GSE79671.R	external_expression_data	GSE79671 count matrix	paired human longitudinal results	Six responders and ten without objective response
 09	scripts/09_human_baseline_GSE37138.R	external_expression_data	GSE37138 Series Matrix	baseline clinical associations	Supporting association only
 10	scripts/10_candidate_validation_GSE249415.R	single_external_file	VEGF_GSE249415_INPUT	candidate-validation results	Final external-validation dataset after cohort lock
