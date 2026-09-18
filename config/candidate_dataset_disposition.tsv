@@ -1,0 +1,16 @@
+dataset	phase10A_disposition	formal_validation_eligible	context_count	independent_dataset_count	decision_basis	result_direction_used_for_decision	mandatory_reporting_note
+GSE64052	FINAL_EXTERNAL_VALIDATION	YES	3	1	replicated in-vivo resistance endpoints; acceptable Tier B comparators; three contexts retained as nested	NO	retain all contexts and identify one independent dataset
+GSE86525	FINAL_EXTERNAL_VALIDATION	YES	1	1	replicated in-vivo resistance/escape endpoint with interpretable Tier B control	NO	retain negative counterevidence
+GSE249415	FINAL_EXTERNAL_VALIDATION	YES	1	1	replicated in-vivo anti-VEGF adaptive-resistance endpoint with stable official inputs	NO	retain negative counterevidence and Tier B limitation
+GSE121153	FINAL_EXTERNAL_VALIDATION	YES	1	1	replicated in-vivo acquired-resistance xenografts; singleton cell-line samples excluded	NO	report missing linked publication and exposure-matching caution
+GSE84048	FINAL_EXTERNAL_VALIDATION	YES	2	1	replicated in-vivo resistant-versus-sensitive tumor and endothelial compartments	NO	count two contexts but one independent dataset
+GSE207976	FINAL_EXTERNAL_VALIDATION	YES	1	1	replicated directly isolated resistant-versus-sensitive endothelial comparison	NO	report GEO overall-design inconsistency and independent grouping verification
+GSE328515	FINAL_EXTERNAL_VALIDATION	YES	1	1	replicated in-vivo acquired lenvatinib-resistance comparison	NO	report absence of linked source publication
+GSE78698	FINAL_EXTERNAL_VALIDATION	YES	2	1	replicated long-versus-short on-treatment adaptation in tumor and endothelial compartments	NO	count two contexts but one dataset; report exposure-time limitation
+GSE59476	SENSITIVITY_ONLY	NO	1	0	only two analyzable samples per arm	NO	retain all six frozen-program results outside formal denominator
+GSE66346	SENSITIVITY_ONLY	NO	1	0	only two analyzable samples per arm	NO	retain all six frozen-program results outside formal denominator
+GSE221557	SENSITIVITY_ONLY	NO	1	0	unresolved assay-label limitation and transcript-FPKM reconstruction	NO	retain all six frozen-program results outside formal denominator
+GSE132568	SENSITIVITY_ONLY	NO	1	0	in-vivo-derived cells underwent prolonged ex-vivo maintenance	NO	retain all six frozen-program results outside formal denominator
+GSE80778	SENSITIVITY_ONLY	NO	2	0	vehicle endpoint causes unresolved treatment/escape conflation	NO	retain both contexts and all six programs outside formal denominator
+GSE81465	SUPPORTIVE_ONLY	NO	1	0	biological-versus-technical replicate identity remains unresolved	NO	retain serial-state direction; do not use P/FDR as biological replication evidence
+GSE45161	SUPPORTIVE_ONLY	NO	2	0	resistant-derivative states lack inferential replication	NO	retain qualitative directions only

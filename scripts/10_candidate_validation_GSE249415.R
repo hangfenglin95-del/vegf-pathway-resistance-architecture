@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
-# Additional-dataset sensitivity analysis performed after the discovery and
-# validation programs had been frozen.
+# Candidate-dataset analysis performed after the discovery programs had been
+# frozen. The final cohort lock assigns GSE249415 to external validation.
 
 args_all <- commandArgs(trailingOnly = FALSE)
 script_arg <- grep("^--file=", args_all, value = TRUE)
@@ -19,7 +19,7 @@ suppressPackageStartupMessages({
 
 output_root_env <- Sys.getenv("VEGF_OUTPUT_ROOT", "")
 output_root <- if (nzchar(output_root_env)) normalizePath(output_root_env, mustWork = FALSE) else file.path(bundle_root, "outputs")
-out_dir <- file.path(output_root, "additional_sensitivity", "GSE249415")
+out_dir <- file.path(output_root, "candidate_validation", "GSE249415")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 write_tsv <- function(x, path) {
@@ -81,7 +81,7 @@ out$contrast <- "B20-treated adaptive-resistance endpoint vs IgG control"
 out$n_numerator <- 3L
 out$n_denominator <- 3L
 out$direction <- ifelse(out$NES > 0, "positive", "negative")
-out$evidence_role <- "additional-dataset sensitivity; not discovery and not primary validation"
+out$evidence_role <- "candidate dataset after program freeze; final external validation"
 out$identified_date <- "2026-09-11"
 out <- out[, c("dataset", "contrast", "pathway", "NES", "pval", "padj", "size",
                "direction", "n_numerator", "n_denominator", "evidence_role",
@@ -91,4 +91,4 @@ write_tsv(data.frame(sample = sample_cols, group = as.character(group)),
           file.path(out_dir, "GSE249415_sample_manifest.tsv"))
 
 writeLines(capture.output(sessionInfo()), file.path(out_dir, "sessionInfo.txt"))
-cat("GSE249415 additional sensitivity analysis complete\n")
+cat("GSE249415 frozen-panel validation analysis complete\n")

@@ -2,11 +2,11 @@
 
 This archive contains the analysis code, frozen figure source data, selected result tables, sample-level manifests, environment records, and reference figures for the manuscript *Recurrent and context-dependent transcriptional architectures of resistance to VEGF-pathway inhibition across experimental and human contexts*.
 
-The analysis preserves study-specific contrasts and compartments. Discovery contains five datasets and eight resistance contexts. Primary experimental validation contains four contrasts from two datasets; the three GSE64052 contrasts are nested within one dataset. GSE81465 is supportive-only because replicate independence is unresolved. Human analyses are kept separate from experimental validation.
+The analysis preserves study-specific contrasts and compartments. Discovery contains five datasets and eight resistance contexts. Final external validation contains 12 contexts from eight independent GEO datasets; contexts within GSE64052, GSE84048, and GSE78698 remain nested within their GEO series. Dataset-level recurrence is the primary summary and context-level results are secondary. GSE81465 and GSE45161 are supportive-only. Human analyses are kept separate from experimental validation.
 
 ## Package contents
 
-- `scripts/`: ordered R analysis and figure-rendering scripts, plus the archive verifier.
+- `scripts/`: ordered R/Python analysis, validation-summary, and figure-rendering scripts, plus the archive verifier. The `legacy_phase9A/` subdirectory preserves the superseded two-dataset validation implementation for provenance and is not part of the current execution path.
 - `config/`: final dataset and contrast evidence roles.
 - `metadata/`: dataset sources and sample-level inclusion records.
 - `data/figure_source_data/`: frozen inputs used to render the publication figures.
@@ -31,15 +31,26 @@ Figure rendering is self-contained because all required source-data tables are i
 
 ```bash
 Rscript scripts/11_render_publication_figures.R
+Rscript scripts/14_render_phase10B_validation_figures.R
 ```
 
-New files are written to `outputs/figures/`. To render selected figures only, provide a comma-separated list:
+New files are written to `outputs/figures/`. The first command renders the eight figures unchanged by the expanded validation cohort; the second renders Figure 1, Figure 4, and Supplementary Figure S3. To render selected unchanged figures only, provide a comma-separated list:
 
 ```bash
-VEGF_FIGURES=Figure1,Figure4 Rscript scripts/11_render_publication_figures.R
+VEGF_FIGURES=Figure2,Figure5 Rscript scripts/11_render_publication_figures.R
 ```
 
-The renderer uses the included frozen TSV files and does not rerun differential expression or enrichment analysis.
+The renderers use included frozen TSV files and do not rerun differential expression or enrichment analysis.
+
+## Rebuild expanded-validation summaries
+
+The dataset-, program-, evidence-tier-, leave-one-dataset-out, and leave-one-context-out summaries can be regenerated from the bundled 72-row formal-validation result block:
+
+```bash
+python3 scripts/13_summarize_expanded_validation.py
+```
+
+A successful run ends with `EXPANDED_VALIDATION_SUMMARY=PASS`.
 
 ## Re-run analyses from expression data
 
@@ -55,9 +66,8 @@ Rscript scripts/03_discovery_gsea.R
 Rscript scripts/04_cross_context_architecture.R
 ```
 
-Continue in the order given in `run_manifest.tsv`. The GSE249415 sensitivity script instead takes its input through `VEGF_GSE249415_INPUT` and can write to a user-selected `VEGF_OUTPUT_ROOT`.
+Continue in the order given in `run_manifest.tsv`, skipping entries marked `archived_provenance`. Candidate-dataset scripts use the external input layout documented in `DATA_ACCESS.md`. `VEGF_OUTPUT_ROOT` can redirect generated results without changing the archive.
 
 ## Reproducibility boundary
 
-The figure-rendering path is directly runnable from this archive. Full expression-level reconstruction additionally requires downloading public GEO files and arranging them according to `DATA_ACCESS.md`. Randomized analyses use explicit seeds. Package versions are recorded in `environment/software_versions.tsv`; the complete recorded R session is in `environment/R_sessionInfo.txt`.
-
+The figure-rendering and expanded-validation summary paths are directly runnable from this archive. Full expression-level reconstruction additionally requires downloading public GEO files and arranging them according to `DATA_ACCESS.md`. Randomized analyses use explicit seeds. Package versions are recorded in `environment/software_versions.tsv`; the complete recorded R session is in `environment/R_sessionInfo.txt`. The expanded validation cohort was locked after discovery-program freezing and was not represented as prospectively prespecified.

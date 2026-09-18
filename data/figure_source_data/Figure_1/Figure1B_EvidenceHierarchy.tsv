@@ -1,7 +1,7 @@
 order	evidence_layer	scope	datasets
 0	Legacy hypothesis	VCO convergence tested and not universal	GSE151165; GSE26644; GSE64472
 1	Discovery	5 datasets / 8 resistance contexts	GSE76068;GSE73571;GSE180687;GSE64472;GSE26644
-2	Primary experimental validation	2 datasets / 4 contrasts	GSE64052;GSE86525
+2	Final external validation	8 datasets / 12 contexts	GSE64052;GSE86525;GSE249415;GSE121153;GSE84048;GSE207976;GSE328515;GSE78698
 2.5	Supportive serial-state evidence	replicate independence unresolved	GSE81465
 3	Human longitudinal translation	16 paired patients	GSE79671
 4	Supporting baseline association	42 baseline tumors; shrinkage n=28	GSE37138

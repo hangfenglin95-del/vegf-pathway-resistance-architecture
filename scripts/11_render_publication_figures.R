@@ -1,6 +1,8 @@
 #!/usr/bin/env Rscript
 
-# Deterministic rendering of publication figures from frozen source-data TSVs.
+# Deterministic rendering of figures unchanged by the expanded validation
+# cohort. Figure 1, Figure 4, and Figure S3 are rendered by
+# scripts/14_render_phase10B_validation_figures.R.
 
 args_all <- commandArgs(trailingOnly = FALSE)
 script_arg <- grep("^--file=", args_all, value = TRUE)
@@ -14,7 +16,8 @@ dir.create(figure_root, recursive = TRUE, showWarnings = FALSE)
 dir.create(supp_root, recursive = TRUE, showWarnings = FALSE)
 
 render_set <- strsplit(Sys.getenv("VEGF_FIGURES", "all"), ",", fixed = TRUE)[[1]]
-should_render <- function(id) "all" %in% render_set || id %in% render_set
+managed_figures <- c("Figure2", "Figure3", "Figure5", "Figure6", "FigureS1", "FigureS2", "FigureS4", "FigureS5")
+should_render <- function(id) id %in% managed_figures && ("all" %in% render_set || id %in% render_set)
 
 read_tab <- function(path) {
   read.delim(path, check.names = FALSE, stringsAsFactors = FALSE, na.strings = c("NA", ""))
@@ -137,11 +140,11 @@ draw_figure1 <- function() {
   hs <- c(0.07, 0.075, 0.085, 0.10, 0.075)
   hierarchy <- read_tab(file.path(source_root, "Figure_1", "Figure1B_EvidenceHierarchy.tsv"))
   discovery_scope <- hierarchy$scope[hierarchy$evidence_layer == "Discovery"][1]
-  validation_scope <- hierarchy$scope[hierarchy$evidence_layer == "Primary experimental validation"][1]
+  validation_scope <- hierarchy$scope[hierarchy$evidence_layer == "Final external validation"][1]
   labs <- c(paste0("DISCOVERY\n", sub(" resistance", "", discovery_scope)),
             "CROSS-CONTEXT\nPATHWAY ARCHITECTURE",
             "FROZEN RECURRENT /\nDIVERGENT PROGRAMS",
-            paste0("PRIMARY VALIDATION\n", validation_scope, "\n+ supportive serial model"),
+            paste0("FINAL EXTERNAL VALIDATION\n", validation_scope, "\n+ supportive serial model"),
             "HUMAN RESPONSE HISTORY\nGSE79671 · 16 pairs")
   fills <- c("#DCEAF4", "#E8F4FA", "#DFF2EA", "#E8F4FA", "#FCE8D5")
   for (i in seq_along(ys)) {
@@ -284,17 +287,17 @@ if (should_render("Figure3")) save_dual("Figure3", 10, 10.5, draw_figure3)
 draw_figure4 <- function() {
   layout(matrix(c(1, 1, 2, 1, 1, 3, 4, 4, 4), nrow = 3, byrow = TRUE), widths = c(1.2, 1.2, 1), heights = c(1, 1, 1.05))
   par(family = "sans", fg = dark, col.axis = dark, col.lab = dark)
-  val <- read_tab(file.path(source_root, "Figure_4", "Figure4A_PredefinedValidationNES.tsv"))
+  val <- read_tab(file.path(source_root, "Figure_4", "Figure4A_ExpandedValidationNES.tsv"))
   if (!"final_evidence_status" %in% names(val)) stop("Figure 4 source data lack final_evidence_status")
-  val <- val[val$final_evidence_status == "PRIMARY_VALIDATION", ]
-  stopifnot(length(unique(val$dataset)) == 2L, length(unique(val$contrast)) == 4L)
+  val <- val[val$final_evidence_status == "FINAL_EXTERNAL_VALIDATION", ]
+  stopifnot(length(unique(val$dataset)) == 8L, length(unique(val$contrast)) == 12L)
   paths <- c("HALLMARK_MTORC1_SIGNALING", "HALLMARK_UNFOLDED_PROTEIN_RESPONSE", "HALLMARK_INTERFERON_GAMMA_RESPONSE", "HALLMARK_INTERFERON_ALPHA_RESPONSE", "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION", "HALLMARK_INFLAMMATORY_RESPONSE")
   contrasts <- unique(val$contrast)
   mat <- matrix(NA_real_, length(paths), length(contrasts), dimnames = list(paths, contrasts))
   for (i in seq_len(nrow(val))) mat[val$pathway[i], val$contrast[i]] <- as.numeric(val$NES[i])
   par(mar = c(9, 11, 3, 1))
   heatmap_panel(mat, c("MTORC1 signaling", "Unfolded protein response", "Interferon-gamma response", "Interferon-alpha response", "Epithelial-mesenchymal transition", "Inflammatory response"),
-                unname(short_contrast[contrasts]), main = "A  Primary non-discovery validation", zlim = c(-3.8, 3.8), cex_row = 0.62, cex_col = 0.68, show_values = TRUE)
+                unname(short_contrast[contrasts]), main = "A  Expanded external validation", zlim = c(-3.8, 3.8), cex_row = 0.62, cex_col = 0.68, show_values = TRUE)
 
   plot_validation <- function(pathway, title_text, panel, col_point) {
     d <- val[val$pathway == pathway, ]
@@ -332,7 +335,7 @@ draw_figure4 <- function() {
   abline(h = 0, col = lightgrey)
   legend("topleft", legend = c("MTORC1 signaling", "Unfolded protein response"), col = c(blue, green), lwd = 2, pch = 19, bty = "n", cex = 0.75)
   text(4, par("usr")[4], "G9 vs G1 direction: positive / positive", adj = c(1, 1.2), cex = 0.68, col = dark)
-  mtext("Supportive only: replicate independence unresolved; primary validation = 4 contrasts / 2 datasets (3 GSE64052 contexts nested)",
+  mtext("Supportive only: replicate independence unresolved; formal validation = 12 contexts / 8 independent datasets",
         side = 1, line = 4.2, cex = 0.64, col = grey)
 }
 if (should_render("Figure4")) save_dual("Figure4", 10, 11, draw_figure4)
@@ -494,10 +497,10 @@ if (should_render("FigureS2")) save_dual("FigureS2_Recurrent_program_robustness"
 
 # Supplementary Figure S3: full frozen validation FDR display.
 draw_s3 <- function() {
-  d <- read_tab(file.path(source_root, "Figure_4", "Figure4A_PredefinedValidationNES.tsv"))
+  d <- read_tab(file.path(source_root, "Figure_4", "Figure4A_ExpandedValidationNES.tsv"))
   if (!"final_evidence_status" %in% names(d)) stop("Figure S3 source data lack final_evidence_status")
-  d <- d[d$final_evidence_status == "PRIMARY_VALIDATION", ]
-  stopifnot(length(unique(d$dataset)) == 2L, length(unique(d$contrast)) == 4L)
+  d <- d[d$final_evidence_status == "FINAL_EXTERNAL_VALIDATION", ]
+  stopifnot(length(unique(d$dataset)) == 8L, length(unique(d$contrast)) == 12L)
   paths <- unique(d$pathway); contrasts <- unique(d$contrast)
   mat <- matrix(NA_real_, length(paths), length(contrasts), dimnames = list(paths, contrasts))
   for (i in seq_len(nrow(d))) mat[d$pathway[i], d$contrast[i]] <- -log10(max(as.numeric(d$padj[i]), 1e-300))
@@ -508,7 +511,7 @@ draw_s3 <- function() {
   axis(2, at = seq_len(nrow(mat)), labels = sapply(paths, pretty_path), las = 2, tick = FALSE, cex.axis = 0.75)
   fmt_fdr <- function(x) ifelse(x < 0.001, "<0.001", sprintf("%.3f", x))
   for (i in seq_len(nrow(mat))) for (j in seq_len(ncol(mat))) text(j, i, fmt_fdr(as.numeric(d$padj[d$pathway == paths[i] & d$contrast == contrasts[j]][1])), cex = 0.68)
-  box(col = grey); title("Primary non-discovery validation FDR values", adj = 0, font.main = 2)
+  box(col = grey); title("Formal external-validation FDR values", adj = 0, font.main = 2)
   mtext("Cells show frozen Benjamini–Hochberg FDR; color intensity is −log10(FDR)", side = 3, adj = 1, cex = 0.68, col = grey)
 }
 if (should_render("FigureS3")) save_dual("FigureS3_Validation_FDR_matrix", 10, 7, draw_s3, supplementary = TRUE)
@@ -528,4 +531,4 @@ draw_s5 <- function() {
 }
 if (should_render("FigureS5")) save_dual("FigureS5_GSE79671_group_level_GSEA", 9, 8, draw_s5, supplementary = TRUE)
 
-cat("Rendered six main publication figures and five supplementary figures.\n")
+cat("Rendered the eight figures unchanged by the expanded validation cohort.\n")

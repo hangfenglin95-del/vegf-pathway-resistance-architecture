@@ -1,0 +1,297 @@
+analysis_stage	dataset	sample_id	group	state_or_time	include_exclude	exclusion_reason	evidence_tier	source_record
+discovery	GSE76068	GSM1973613	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973614	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973615	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973616	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973617	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973618	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973619	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973620	tumor_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973621	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973622	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973623	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973624	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973625	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973626	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973627	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973628	tumor_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973629	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973630	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973631	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973632	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973633	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973634	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973635	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973636	tumor_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973637	stroma_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973638	stroma_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973639	stroma_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973640	stroma_pre-treatment	baseline	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973641	stroma_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973642	stroma_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973643	stroma_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973644	stroma_response	sensitive/responding	EXCLUDE	initial objective QC failure: low_cross-sample_correlation;low_detection_fraction	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973645	stroma_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973646	stroma_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973647	stroma_response	sensitive/responding	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973648	stroma_response	sensitive/responding	EXCLUDE	initial objective QC failure: low_cross-sample_correlation;low_technical-replicate_concordance	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973649	stroma_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973650	stroma_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973651	stroma_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE76068	GSM1973652	stroma_escape	acquired resistance/escape	CORE_INCLUDE	NA	Tier A;Temporal/supportive	sample_manifest.tsv
+discovery	GSE73571	GSM1898056	xenograft_sorafenib-acquired_resistant	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898057	xenograft_sorafenib-acquired_resistant	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898058	xenograft_sorafenib-acquired_resistant	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898059	xenograft_sorafenib-acquired_resistant	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898060	xenograft_sorafenib_sensitive	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898061	xenograft_sorafenib_sensitive	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898062	xenograft_sorafenib_sensitive	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE73571	GSM1898063	xenograft_brivanib_treated_after_resistance	post-resistance alternate treatment	EXCLUDE	post-resistance alternate-drug intervention; outside core contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898064	xenograft_brivanib_treated_after_resistance	post-resistance alternate treatment	EXCLUDE	post-resistance alternate-drug intervention; outside core contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898065	xenograft_brivanib_treated_after_resistance	post-resistance alternate treatment	EXCLUDE	post-resistance alternate-drug intervention; outside core contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898066	sphere_not_treated	untreated	EXCLUDE	different in-vitro sphere model; outside core xenograft contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898067	sphere_not_treated	untreated	EXCLUDE	different in-vitro sphere model; outside core xenograft contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898068	sphere_not_treated	untreated	EXCLUDE	different in-vitro sphere model; outside core xenograft contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898069	sphere_sorafenib-acquired_resistant	acquired resistance	EXCLUDE	different in-vitro sphere model; outside core xenograft contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898070	sphere_sorafenib-acquired_resistant	acquired resistance	EXCLUDE	different in-vitro sphere model; outside core xenograft contrast	NA	sample_manifest.tsv
+discovery	GSE73571	GSM1898071	sphere_sorafenib-acquired_resistant	acquired resistance	EXCLUDE	different in-vitro sphere model; outside core xenograft contrast	NA	sample_manifest.tsv
+discovery	GSE180687	GSM5468039	control endothelial	untreated/control	SUPPORTIVE_ONLY	not part of the predefined resistant-vs-sensitive contrast	NA	sample_manifest.tsv
+discovery	GSE180687	GSM5468040	control endothelial	untreated/control	SUPPORTIVE_ONLY	not part of the predefined resistant-vs-sensitive contrast	NA	sample_manifest.tsv
+discovery	GSE180687	GSM5468041	control endothelial	untreated/control	SUPPORTIVE_ONLY	not part of the predefined resistant-vs-sensitive contrast	NA	sample_manifest.tsv
+discovery	GSE180687	GSM5468042	control endothelial	untreated/control	SUPPORTIVE_ONLY	not part of the predefined resistant-vs-sensitive contrast	NA	sample_manifest.tsv
+discovery	GSE180687	GSM5468043	control endothelial	untreated/control	SUPPORTIVE_ONLY	not part of the predefined resistant-vs-sensitive contrast	NA	sample_manifest.tsv
+discovery	GSE180687	GSM5468044	sensitive endothelial	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468045	sensitive endothelial	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468046	sensitive endothelial	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468047	sensitive endothelial	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468048	resistant endothelial	adaptive resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468049	resistant endothelial	adaptive resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468050	resistant endothelial	adaptive resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE180687	GSM5468051	resistant endothelial	adaptive resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571936	tumor_cediranib_sensitive/responding	sensitive/responding	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571937	tumor_cediranib_sensitive/responding	sensitive/responding	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571938	tumor_cediranib_sensitive/responding	sensitive/responding	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571939	tumor_cediranib_acquired resistance	acquired resistance	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571940	tumor_cediranib_acquired resistance	acquired resistance	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571941	tumor_cediranib_acquired resistance	acquired resistance	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571942	tumor_vandetanib_sensitive/responding	sensitive/responding	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571943	tumor_vandetanib_sensitive/responding	sensitive/responding	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571944	tumor_vandetanib_sensitive/responding	sensitive/responding	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571945	tumor_vandetanib_acquired resistance	acquired resistance	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571946	tumor_vandetanib_acquired resistance	acquired resistance	EXCLUDE	scanner-level signal failure; permanently excluded by data-integrity review integrity audit	NA	sample_manifest.tsv
+discovery	GSE64472	GSM1571925	stroma_cediranib_sensitive/responding	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571926	stroma_cediranib_sensitive/responding	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571927	stroma_cediranib_sensitive/responding	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571928	stroma_cediranib_acquired resistance	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571929	stroma_cediranib_acquired resistance	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571930	stroma_cediranib_acquired resistance	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571931	stroma_vandetanib_sensitive/responding	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571932	stroma_vandetanib_sensitive/responding	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571933	stroma_vandetanib_sensitive/responding	sensitive/responding	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571934	stroma_vandetanib_acquired resistance	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE64472	GSM1571935	stroma_vandetanib_acquired resistance	acquired resistance	CORE_INCLUDE	NA	Tier A	sample_manifest.tsv
+discovery	GSE26644	GSM655943	tumor_vehicle_control	untreated/vehicle control	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655944	tumor_vehicle_control	untreated/vehicle control	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655945	tumor_vehicle_control	untreated/vehicle control	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655946	tumor_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655947	tumor_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655948	tumor_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655859	stroma_vehicle_control	untreated/vehicle control	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655860	stroma_vehicle_control	untreated/vehicle control	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655861	stroma_vehicle_control	untreated/vehicle control	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655938	stroma_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655939	stroma_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+discovery	GSE26644	GSM655940	stroma_resistant	acquired resistance	CORE_INCLUDE	NA	Tier B	sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208762	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208763	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208764	IgG control	control	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208765	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208766	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208767	generation 1 / early bevacizumab	early responsive/sensitive	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208768	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208769	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208770	generation 4 / intermediate	intermediate adaptation	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208771	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208772	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+supportive validation evidence	GSE81465	GSM2208773	generation 9 / late resistant	late resistant	SUPPORTIVE_DESCRIPTIVE	Replicate provenance unresolved; excluded from formal external-validation denominator	Supportive-only	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563498	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563499	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563500	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563501	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563502	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563503	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563504	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563505	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563506	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563507	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563508	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563509	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563510	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563511	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563512	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563513	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563514	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563515	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563516	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563517	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563518	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563519	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563520	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563521	pretreatment 12-mm tumor	untreated baseline	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563522	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563523	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563524	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE64052	GSM1563525	resistant endpoint under continued drug	resistant during continued therapy	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE86525	GSM2304992	untreated control	control	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE86525	GSM2304993	untreated control	control	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE86525	GSM2304994	untreated control	control	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE86525	GSM2304995	continued treatment to endpoint; 3 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE86525	GSM2304996	continued treatment to endpoint; 4 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE86525	GSM2304997	continued treatment to endpoint; 5 weeks	bevacizumab-treated resistant/escape endpoint	include_primary		Tier B	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098404	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098405	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098406	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098407	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098408	untreated endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098409	on-treatment endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098410	untreated endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098411	on-treatment endpoint	parental	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098412	untreated endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+validation	GSE45161	GSM1098413	on-treatment endpoint	resistant derivative	supportive_only	Resistant derivative arm has n=1 per treatment state; excluded from primary denominator.	Supportive-only	validation_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100916	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100917	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100918	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100919	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100920	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100921	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100922	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100923	Responder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100924	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100925	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100926	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100927	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100928	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100929	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100930	Responder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100931	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100932	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100933	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100934	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100935	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100936	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100937	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100938	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100939	Responder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100940	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100941	Responder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100942	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100943	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100944	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100945	Responder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100946	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100947	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100948	Responder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100949	Responder	Post	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100950	NonResponder	Pre	include			GSE79671_sample_manifest.tsv
+human_longitudinal	GSE79671	GSM2100951	NonResponder	Post	include			GSE79671_sample_manifest.tsv
+human_supporting	GSE37138	GSM911967		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911968		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911969		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911970		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911971		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911972		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911973		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911974		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911975		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911976		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911977		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911978		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911979		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911980		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911981		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911982		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911983		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911984		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911985		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911986		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911987		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911988		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911989		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911990		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911991		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911992		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911993		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911994		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911995		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911996		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911997		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911998		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM911999		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912000		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912001		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912002		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912003		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912004		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912005		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912006		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912007		baseline	include			GSE37138_sample_manifest.tsv
+human_supporting	GSE37138	GSM912008		baseline	include			GSE37138_sample_manifest.tsv
+formal external validation	GSE249415	control.1	denominator	GSE249415_B20_vs_IgG	FORMAL_VALIDATION_INCLUDE	NA	Tier B	manuscript/phase8c_integrity/GSE249415/GSE249415_sample_manifest.tsv
+formal external validation	GSE249415	control.2	denominator	GSE249415_B20_vs_IgG	FORMAL_VALIDATION_INCLUDE	NA	Tier B	manuscript/phase8c_integrity/GSE249415/GSE249415_sample_manifest.tsv
+formal external validation	GSE249415	control.3	denominator	GSE249415_B20_vs_IgG	FORMAL_VALIDATION_INCLUDE	NA	Tier B	manuscript/phase8c_integrity/GSE249415/GSE249415_sample_manifest.tsv
+formal external validation	GSE249415	B20.1	numerator	GSE249415_B20_vs_IgG	FORMAL_VALIDATION_INCLUDE	NA	Tier B	manuscript/phase8c_integrity/GSE249415/GSE249415_sample_manifest.tsv
+formal external validation	GSE249415	B20.2	numerator	GSE249415_B20_vs_IgG	FORMAL_VALIDATION_INCLUDE	NA	Tier B	manuscript/phase8c_integrity/GSE249415/GSE249415_sample_manifest.tsv
+formal external validation	GSE249415	B20.3	numerator	GSE249415_B20_vs_IgG	FORMAL_VALIDATION_INCLUDE	NA	Tier B	manuscript/phase8c_integrity/GSE249415/GSE249415_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427012	denominator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427013	denominator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427014	denominator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427017	numerator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427018	numerator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427019	numerator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427020	numerator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE121153	GSM3427021	numerator	GSE121153_xenograft_resistant_vs_parental	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c1_dataset_cleanup/analysis/GSE121153/GSE121153_xenograft_resistant_vs_parental_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226492	denominator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226493	denominator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226494	denominator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226495	denominator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226496	numerator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226497	numerator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226498	numerator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226499	numerator	GSE84048_bulk_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_bulk_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226480	denominator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226481	denominator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226482	denominator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226483	denominator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226484	numerator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226485	numerator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226486	numerator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE84048	GSM2226487	numerator	GSE84048_endothelium_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A	manuscript/phase8c1_dataset_cleanup/analysis/GSE84048/GSE84048_endothelium_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE207976	LSEC-C1	denominator	GSE207976_LSEC_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE207976/GSE207976_LSEC_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE207976	LSEC-C2	denominator	GSE207976_LSEC_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE207976/GSE207976_LSEC_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE207976	LSEC-C3	denominator	GSE207976_LSEC_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE207976/GSE207976_LSEC_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE207976	LSEC-RE1	numerator	GSE207976_LSEC_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE207976/GSE207976_LSEC_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE207976	LSEC-RE2	numerator	GSE207976_LSEC_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE207976/GSE207976_LSEC_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE207976	LSEC-RE3	numerator	GSE207976_LSEC_resistant_vs_sensitive	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE207976/GSE207976_LSEC_resistant_vs_sensitive_sample_manifest.tsv
+formal external validation	GSE328515	NR1_count	denominator	GSE328515_H22_LR_vs_NR	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE328515/GSE328515_H22_LR_vs_NR_sample_manifest.tsv
+formal external validation	GSE328515	NR2_count	denominator	GSE328515_H22_LR_vs_NR	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE328515/GSE328515_H22_LR_vs_NR_sample_manifest.tsv
+formal external validation	GSE328515	NR3_count	denominator	GSE328515_H22_LR_vs_NR	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE328515/GSE328515_H22_LR_vs_NR_sample_manifest.tsv
+formal external validation	GSE328515	LR1_count	numerator	GSE328515_H22_LR_vs_NR	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE328515/GSE328515_H22_LR_vs_NR_sample_manifest.tsv
+formal external validation	GSE328515	LR2_count	numerator	GSE328515_H22_LR_vs_NR	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE328515/GSE328515_H22_LR_vs_NR_sample_manifest.tsv
+formal external validation	GSE328515	LR3_count	numerator	GSE328515_H22_LR_vs_NR	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE328515/GSE328515_H22_LR_vs_NR_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072788	denominator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072789	denominator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072790	denominator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072791	denominator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072792	numerator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072793	numerator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072794	numerator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072795	numerator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072796	numerator	GSE78698_tumor_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_tumor_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072800	denominator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072801	denominator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072802	denominator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072803	numerator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072804	numerator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072805	numerator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072806	numerator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv
+formal external validation	GSE78698	GSM2072807	numerator	GSE78698_endothelium_long_vs_short_nintedanib	FORMAL_VALIDATION_INCLUDE	NA	Tier A with caution	manuscript/phase8c2_search_completeness/analysis/GSE78698/GSE78698_endothelium_long_vs_short_nintedanib_sample_manifest.tsv

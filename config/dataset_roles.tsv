@@ -1,12 +1,23 @@
-dataset	final_role	primary_validation_eligible	evidence_tier	notes
+dataset	final_role	formal_validation_eligible	evidence_tier	notes
 GSE76068	DISCOVERY	NO	See contrast manifest	Discovery dataset
 GSE73571	DISCOVERY	NO	See contrast manifest	Discovery dataset
 GSE180687	DISCOVERY	NO	See contrast manifest	Discovery dataset
 GSE64472	DISCOVERY	NO	See contrast manifest	Discovery dataset
 GSE26644	DISCOVERY	NO	See contrast manifest	Discovery dataset
-GSE64052	PRIMARY_VALIDATION	YES	Tier B	Three nested/related contrasts from one dataset
-GSE86525	PRIMARY_VALIDATION_COUNTEREXAMPLE	YES	Tier B	One negative counterexample contrast
-GSE81465	SUPPORTIVE_ONLY	NO	Supportive-only	Serial-state descriptive evidence; replicate provenance unresolved
+GSE64052	FINAL_EXTERNAL_VALIDATION	YES	Tier B	Three nested model-by-drug contexts
+GSE86525	FINAL_EXTERNAL_VALIDATION	YES	Tier B	Negative MTORC1/UPR counterexample
+GSE249415	FINAL_EXTERNAL_VALIDATION	YES	Tier B	Treatment/time effects may contribute
+GSE121153	FINAL_EXTERNAL_VALIDATION	YES	Tier A with caution	Parental exposure matching requires caution
+GSE84048	FINAL_EXTERNAL_VALIDATION	YES	Tier A	Bulk and endothelial contexts are nested
+GSE207976	FINAL_EXTERNAL_VALIDATION	YES	Tier A with caution	GEO overall-design inconsistency independently resolved
+GSE328515	FINAL_EXTERNAL_VALIDATION	YES	Tier A with caution	No linked publication identified
+GSE78698	FINAL_EXTERNAL_VALIDATION	YES	Tier A with caution	Long-versus-short exposure; two nested compartments
+GSE81465	SUPPORTIVE_ONLY	NO	Supportive-only	Serial-state evidence; replicate provenance unresolved
 GSE45161	SUPPORTIVE_DIRECTION_ONLY	NO	Supportive-only	Resistant derivative arms lack inferential replication
+GSE59476	SENSITIVITY_ONLY	NO	Design-limited	Two samples per group
+GSE66346	SENSITIVITY_ONLY	NO	Design-limited	Small KURC1 subset and vehicle comparator
+GSE221557	SENSITIVITY_ONLY	NO	Design-limited	Archive-label and assay-provenance caveat
+GSE132568	SENSITIVITY_ONLY	NO	Design-limited	Ex-vivo maintenance after in-vivo selection
+GSE80778	SENSITIVITY_ONLY	NO	Design-limited	Treatment and escape effects not separable
 GSE79671	HUMAN_LONGITUDINAL	NO	Human	16 complete pairs: 6 responders and 10 without objective response
-GSE37138	SUPPORTING_BASELINE_ASSOCIATION	NO	Human supporting	Nominal/supporting only
+GSE37138	SUPPORTING_BASELINE_ASSOCIATION	NO	Human supporting	Single-arm baseline association

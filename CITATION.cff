@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or its bundled source data, please cite the associated manuscript and this repository."
+title: "VEGF-pathway resistance architecture: reproducibility code and source data"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Hangfeng
+repository-code: "https://github.com/hangfenglin95-del/vegf-pathway-resistance-architecture"
+license: MIT
+version: 0.2.0
+date-released: 2026-09-18
