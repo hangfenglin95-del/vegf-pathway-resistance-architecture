@@ -454,7 +454,7 @@ draw_gse37138 <- function() {
     par(mar = c(4.5, 4.5, 3, 1))
     plot(x, y, pch = 21, bg = if (program == "MTORC1") blue else green, col = "white", cex = 1.0,
          xlab = paste(program, "baseline program score"), ylab = "Week-12 tumor shrinkage (%)",
-         main = paste(program, "supporting baseline association"))
+         main = paste(program, "baseline association"))
     abline(lm(y ~ x), col = grey, lty = 2)
     legend("topright", legend = sprintf("Spearman rho = %.2f\nP = %.3f\nFDR = %.3f\nn = %s",
                                         as.numeric(row$spearman_rho), as.numeric(row$spearman_p), as.numeric(row$continuous_FDR), row$continuous_n),
@@ -469,11 +469,21 @@ if (should_render("FigureS4")) save_dual("FigureS4_GSE37138_baseline_association
 draw_s1 <- function() {
   pca <- read_tab(file.path(source_root, "Figure_2", "Figure2C_HallmarkPCA.tsv"))
   cols <- c("tumor" = blue, "stroma" = orange, "endothelial" = green)
-  par(mar = c(5, 5, 3, 1), family = "sans")
-  plot(as.numeric(pca$PC1), as.numeric(pca$PC2), pch = 21, bg = cols[pca$compartment], col = "white", lwd = 0.8,
-       cex = 1.8, xlab = "PC1 score", ylab = "PC2 score", main = "Discovery Hallmark pathway-space PCA")
+  x <- as.numeric(pca$PC1); y <- as.numeric(pca$PC2)
+  xr <- range(x, finite = TRUE); yr <- range(y, finite = TRUE)
+  xpad <- 0.18 * diff(xr); ypad <- 0.22 * diff(yr)
+  # Place labels toward the plotting interior at the outermost points. This
+  # preserves full contrast labels without clipping them at device edges.
+  label_pos <- rep(3, length(x))
+  label_pos[x <= quantile(x, 0.15)] <- 4
+  label_pos[x >= quantile(x, 0.85)] <- 2
+  label_pos[y >= quantile(y, 0.85)] <- 1
+  par(mar = c(5.5, 6.5, 3.5, 2.5), family = "sans", xpd = NA)
+  plot(x, y, pch = 21, bg = cols[pca$compartment], col = "white", lwd = 0.8,
+       cex = 1.8, xlab = "PC1 score", ylab = "PC2 score", main = "Discovery Hallmark pathway-space PCA",
+       xlim = c(xr[1] - xpad, xr[2] + xpad), ylim = c(yr[1] - ypad, yr[2] + ypad))
   abline(h = 0, v = 0, col = lightgrey, lty = 2)
-  text(as.numeric(pca$PC1), as.numeric(pca$PC2), labels = pca$contrast_display, pos = 3, cex = 0.68, col = dark)
+  text(x, y, labels = pca$contrast_display, pos = label_pos, offset = 0.55, cex = 0.62, col = dark, xpd = NA)
   legend("bottomright", legend = names(cols), pt.bg = cols, pch = 21, bty = "n", cex = 0.8)
   mtext("Descriptive ordination of the same raw 50-pathway NES matrix shown in Figure 2", side = 1, line = 4, cex = 0.68, col = grey)
 }

@@ -12,6 +12,6 @@ step	script	execution_mode	principal_input	principal_output	notes
 11	scripts/11_candidate_validation_phase8c1.R	external_expression_data	VEGF_CANDIDATE_INPUT_ROOT/phase8c1	candidate-validation and sensitivity results	Includes GSE121153 and GSE84048 formal contexts
 12	scripts/12_candidate_validation_phase8c2.R	external_expression_data	VEGF_CANDIDATE_INPUT_ROOT/phase8c2	candidate-validation and sensitivity results	Includes GSE207976, GSE328515, and GSE78698 formal contexts
 13	scripts/13_summarize_expanded_validation.py	standalone_bundled_data	TableS5 expanded formal results	outputs/validation	Rebuilds dataset-aware Phase 10 summaries
-14	scripts/11_render_publication_figures.R	standalone_bundled_data	data/figure_source_data	outputs/figures	Renders figures unchanged by expanded validation
+14	scripts/11_render_publication_figures.R	standalone_bundled_data	data/figure_source_data	outputs/figures	Renders publication figures; includes layout-only corrections to Figure 1, Figure S1, and Figure S4
 15	scripts/14_render_phase10B_validation_figures.R	standalone_bundled_data	data/figure_source_data	outputs/figures	Renders updated Figure 1, Figure 4, and Figure S3
 16	scripts/verify_release.py	standalone	checksums/SHA256SUMS.tsv	integrity status	Standard-library verification

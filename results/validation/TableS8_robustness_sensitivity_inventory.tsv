@@ -13,6 +13,6 @@ GSE37138 endpoint consistency	Supporting baseline cohort	Endpoint sensitivity	EX
 Expanded validation dataset-level direction	Eight independent datasets / 12 contexts / six frozen programs	Dataset-aware validation summary	EXECUTED_PHASE10B
 Expanded validation leave-one-dataset-out	Eight independent validation datasets	Dataset omission	EXECUTED_PHASE10B
 Expanded validation leave-one-context-out	Twelve formal validation contexts	Context omission	EXECUTED_PHASE10B
-Expanded validation evidence-tier summary	Tier A including caution versus Tier B	Evidence-tier restriction	EXECUTED_PHASE10B
+Expanded validation evidence-tier summary	Tier A versus Tier B	Evidence-tier restriction	EXECUTED_PHASE10B
 Candidate-dataset disposition audit	Fifteen validation, sensitivity, or supportive datasets	Result-independent eligibility audit	LOCKED_PHASE10A
 Design-limited dataset sensitivity	Five datasets / six contexts / six frozen programs outside formal denominator	Design-limited additional sensitivity	RETAINED_PHASE10B

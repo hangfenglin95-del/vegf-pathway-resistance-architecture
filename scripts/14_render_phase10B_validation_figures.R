@@ -98,7 +98,9 @@ draw_figure1 <- function() {
   par(mar = c(1, 1, 2.5, 1))
   plot.new(); plot.window(xlim = c(0, 1), ylim = c(0, 1)); panel_label("B")
   title("Evidence hierarchy", adj = 0.08, font.main = 2, cex.main = 1.05)
-  ys <- c(0.83, 0.66, 0.49, 0.29, 0.09); hs <- c(0.07, 0.075, 0.085, 0.10, 0.075)
+  # Keep a visible vertical gap between all hierarchy boxes so every arrow
+  # points unambiguously downward from the preceding evidence layer.
+  ys <- c(0.84, 0.665, 0.49, 0.295, 0.10); hs <- c(0.06, 0.065, 0.07, 0.08, 0.06)
   labs <- c("DISCOVERY\n5 datasets / 8 contexts",
             "CROSS-CONTEXT\nPATHWAY ARCHITECTURE",
             "FROZEN RECURRENT /\nDIVERGENT PROGRAMS",
@@ -107,7 +109,9 @@ draw_figure1 <- function() {
   fills <- c("#DCEAF4", "#E8F4FA", "#DFF2EA", "#E8F4FA", "#FCE8D5")
   for (i in seq_along(ys)) {
     draw_box(0.18, ys[i] - hs[i], 0.82, ys[i] + hs[i], labs[i], fill = fills[i], cex = 0.64, font = 2)
-    if (i < length(ys)) arrows(0.5, ys[i] - hs[i] - 0.008, 0.5, ys[i + 1] + hs[i + 1] + 0.008, length = 0.04, col = grey)
+    if (i < length(ys)) arrows(0.5, ys[i] - hs[i] - 0.006,
+                                0.5, ys[i + 1] + hs[i + 1] + 0.006,
+                                length = 0.045, angle = 25, code = 2, col = grey)
   }
 
   par(mar = c(1, 1, 2.5, 1))

@@ -150,7 +150,7 @@ def summarize(rows: list[dict[str, str]]) -> None:
     tier_rows: list[dict[str, object]] = []
     for pathway in PATHWAYS:
         for tier_name, selector in (
-            ("Tier A including caution", lambda value: value.startswith("Tier A")),
+            ("Tier A", lambda value: value == "Tier A"),
             ("Tier B", lambda value: value == "Tier B"),
         ):
             block = [row for row in rows if row["pathway"] == pathway and selector(tier_by_context[row["contrast"]])]
